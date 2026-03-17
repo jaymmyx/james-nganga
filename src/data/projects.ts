@@ -3,6 +3,7 @@ import aetlantiqImg from '../assets/aetlantiq.png';
 import makaoImg from '../assets/makao.png';
 import audiophileImg from '../assets/audiophile.png';
 import acfImg from '../assets/acf.png';
+import finHub from '../assets/finishing-hub.png';
 
 export const projects = [
     {
@@ -13,6 +14,15 @@ export const projects = [
         github: 'https://github.com/jaymmyx/Aetlantiq-os',
         demo: 'https://github.com/jaymmyx/Aetlantiq-os/releases/tag/v2.0.0', // Add live link if applicable for the desktop app landing page
         image: aetlantiqImg,
+    },
+    {
+        id: 'finishing-hub',
+        title: 'The Finishing Hub',
+        description: 'An Ecommerce Web Application for a local finishing company dealing with metal works.',
+        tags: ['Next.js', 'Tailwind CSS', 'React', 'TypeScript'],
+        github: 'https://github.com/jaymmyx/the-finishing-hub',
+        demo: 'https://the-finishing-hub.vercel.app/', // Add live link if applicable for the desktop app landing page
+        image: finHub,
     },
     {
         id: 'makao-archives',
